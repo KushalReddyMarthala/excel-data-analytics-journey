@@ -15,8 +15,6 @@ and contact info were inconsistent enough that formulas and pivot tables would s
 - 5 Salary values and 21 Email values were missing
 - 4 rows were exact duplicates
 
-![Raw data - view 1](./screenshot-raw-data-1.png)
-![Raw data - view 2](./screenshot-raw-data-2.png)
 
 ## Approach
 - TRIM() + PROPER() to fix casing and stray spaces in names
@@ -31,9 +29,5 @@ and contact info were inconsistent enough that formulas and pivot tables would s
 13 Department spelling variants → 5 standardized categories
 5 missing salaries and 21 missing emails flagged, not hidden
 4 duplicate rows removed
-
-![Cleaned data - scorecard](./screenshot-cleaned-data-1.png)
-![Cleaned data - full table](./screenshot-cleaned-data-2.png)
-![Cleaned data - charts](./screenshot-cleaned-data-3.png)
 
 Files: raw_data_100.xlsx (original) and 01_data_cleaning_project.xlsx (cleaned, with scorecard and charts)
