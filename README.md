@@ -61,9 +61,3 @@ The third project analyzes customer churn across:
 - Data Visualization
 - Business Insights
 
-## Roadmap
-
-**Excel → SQL → Power BI → Python**
-
-One real project at a time — with the files, calculations, reasoning, and business conclusions included, not just the final results.
-
