@@ -51,6 +51,7 @@ Risk Classification
 Model Validation
        ↓
 Insights & Visualization
+
 ## Key Metrics
 Country
 UK — 45.8% churn
@@ -119,8 +120,6 @@ SUMPRODUCT
 File	Purpose
 subscription_data_100.xlsx	Raw customer dataset
 03_subscription_churn_project.xlsx	Completed analysis
-screenshot-churn-insights-1.png	Analysis/dashboard screenshot
-screenshot-churn-insights-2.png	Analysis/dashboard screenshot
 
 ## Tools & Skills
 
