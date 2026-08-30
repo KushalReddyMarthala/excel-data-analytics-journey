@@ -1,4 +1,4 @@
-Here's your updated main README, incorporating Projects 04 and 05 into the existing structure:
+Here's the updated README with What-If Analysis renumbered to 04:
 
 markdown
 # Data Analytics Journey
@@ -21,8 +21,7 @@ Every folder in this repo follows the same structure:
 | 01 | [Data Cleaning](./01-data-cleaning) | 105-row employee dataset with inconsistent formatting, mixed date formats, missing values, and duplicates | 105 messy rows → 100 clean, usable records |
 | 02 | [Sales Analysis](./02-sales-analysis) | 50 sales orders — which regions and categories actually drive revenue? | Found that order volume and revenue don't always align |
 | 03 | [Subscription Churn](./03-subscription-churn) | 100 subscription customers — which countries, plans, and tenure groups have the highest churn? | Found that plan type is the strongest visible churn differentiator, with churn also varying significantly by geography and tenure |
-| 04 | [E-Commerce Returns](./04-ecommerce-returns) | 120 orders across 3 linked sheets — which products and regions drive the most returns, and why? | Home category drives 50% of returns; West region has a 42.9% return rate independent of category; most returns are fit/logistics issues, not defects |
-| 05 | [What-If Analysis](./05-what-if-analysis) | How sensitive is a SaaS business's unit economics to changes in churn, CAC, and growth? | Churn could roughly double before hitting risk thresholds — but customer growth turns negative before that point |
+| 04 | [What-If Analysis](./04-what-if-analysis) | How sensitive is a SaaS business's unit economics to changes in churn, CAC, and growth? | Churn could roughly double before hitting risk thresholds — but customer growth turns negative before that point |
 
 ## Project 03 — Subscription Churn
 
@@ -43,28 +42,16 @@ The third project analyzes customer churn across:
 
 [View the full Subscription Churn Analysis →](./03-subscription-churn)
 
-## Project 04 — E-Commerce Returns
+## Project 04 — What-If Analysis
 
-The fourth project connects 3 related sheets (Orders, Products, Customers) using VLOOKUP and INDEX+MATCH, then analyzes 120 orders using PivotTables and PivotCharts to understand return behavior.
-
-**Key Findings**
-- Home category accounts for 50% of all returns — double any other category
-- West region has a 42.9% return rate, nearly double the next-highest region
-- Checked whether West's high return rate was driven by Home purchases specifically — it wasn't, ruling out the obvious explanation
-- Wrong Size and Late Delivery are tied as the top return reasons; Defective is the rarest cause — most returns are a fit and logistics problem, not a quality problem
-
-[View the full E-Commerce Returns Analysis →](./04-ecommerce-returns)
-
-## Project 05 — What-If Analysis
-
-The fifth project builds a SaaS unit economics model and stress-tests it using Goal Seek, Scenario Manager, and Data Tables.
+The fourth project builds a SaaS unit economics model and stress-tests it using Goal Seek, Scenario Manager, and Data Tables.
 
 **Key Findings**
 - Goal Seek: churn could roughly double (5% → 10%) before the LTV:CAC ratio hit the risky 3.0 threshold — but at that same churn rate, the business was already losing more customers than it gained
 - Scenario Manager: in the Worst Case scenario, MRR barely dropped versus Expected Case, but Net New Customers turned negative — revenue can look healthy right up until it isn't
 - Data Table: LTV:CAC drops from 18.7 at 2% churn down to 3.1 at 12% churn, mapped across the full range in a single table
 
-[View the full What-If Analysis →](./05-what-if-analysis)
+[View the full What-If Analysis →](./04-what-if-analysis)
 
 ## Skills & Techniques
 
